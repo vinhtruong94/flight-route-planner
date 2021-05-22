@@ -43,6 +43,8 @@ Open your favorite API client to test, mine is Postman ! Add these parameters:
 ```
 Optional Parameters are: `sort_by`, `sort_order` and `preferred_airline`. `return_date` is not required as long as the `trip_type` value is `one-way`.
 
+Example of test url: ```http://127.0.0.1:8000/api/search_routes?departure_airport=YUL&arrival_airport=YTZ&departure_date=2021-02-01&return_date=2021-02-20&trip_type=round-trip```
+
 ** Remember to set your `Content-Type` Header to `application/json` !
 
 ** Feel free to fork. 
